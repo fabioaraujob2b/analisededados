@@ -27,11 +27,9 @@ while True:
             print("Empate!")
     elif opcao == 2:
         print("Placar:")
-        resultado1 = pontos1.count(1)
-        resultado2 = pontos2.count(1)
-        print(f"Jogador 1: {resultado1}")
-        print(f"Jogador 2: {resultado2}")
+        print(f"Jogador 1: {pontos1}")
+        print(f"Jogador 2: {pontos2}")
     elif opcao == 3:
-        break1
+        break
     else:
         print("Opção inválida. Digite novamente.")            
