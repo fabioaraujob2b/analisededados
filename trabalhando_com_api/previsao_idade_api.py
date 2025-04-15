@@ -18,3 +18,4 @@ def idade_por_nome(nome):
         print(f"Erro ao acessar a API: {resposta.status_code}")        
 
 idade_por_nome(input("Digite um nome: "))
+
