@@ -1,5 +1,5 @@
 def quicksort(array):
-    if len(array) < 2:
+    if len(array) < 2: 
         return array
     else:
         pivo = array[0]
@@ -8,3 +8,4 @@ def quicksort(array):
         return quicksort(menores) + [pivo] + quicksort(maiores)
 
 print (quicksort([5, 3, 6, 2, 10, 1, 4, 8, 7, 9]))
+
